@@ -1,0 +1,26 @@
+{
+    "name": "huwei1994/last",
+    "description": "this is last time",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huwei1994",
+            "email": "huwei19940728@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "huwei1994/scmscore":"0.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Last\\":"src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/huwei1994/scmscore.git"
+        }
+    ]
+}
